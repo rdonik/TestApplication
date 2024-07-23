@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+    <string name="et_hint_enter_points">Введите количество точек</string>
+    <string name="btn_check">Поехали</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="saved_success">Успешно сохранено</string>
+    <string name="saved_error">Не удалось сохранить</string>
+    <string name="points">Точки</string>
+    <string name="no_points">Точки отсутствуют</string>
+</resources>
