@@ -28,6 +28,7 @@ android {
             buildConfigField("String", "BASE_URL", "\"https://hr-challenge.dev.tapyou.com\"")
         }
         release {
+            buildConfigField("String", "BASE_URL", "\"https://hr-challenge.dev.tapyou.com\"")
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
