@@ -13,7 +13,7 @@ fun Context.columnX(x: String? = null): TextView {
     textView.apply {
         setTypeface(typeface, Typeface.BOLD)
         setText(x)
-        textAlignment = View.TEXT_ALIGNMENT_TEXT_START
+        textAlignment = View.TEXT_ALIGNMENT_CENTER
     }
     val greyColor = ContextCompat.getColor(
         this,
@@ -29,7 +29,7 @@ fun Context.columnY(y: String? = null): TextView {
     textView.apply {
         setTypeface(typeface, Typeface.BOLD)
         setText(y)
-        textAlignment = View.TEXT_ALIGNMENT_TEXT_START
+        textAlignment = View.TEXT_ALIGNMENT_CENTER
     }
     val greyColor = ContextCompat.getColor(
         this,

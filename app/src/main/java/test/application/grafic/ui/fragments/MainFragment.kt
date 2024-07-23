@@ -24,7 +24,7 @@ class MainFragment : BaseFragment<FragmentMainBinding>(FragmentMainBinding::infl
     }
 
     private fun initListeners() {
-        binding.goButton.setOnClickListener {
+        binding.btnGo.setOnClickListener {
             hideKeyboard()
             if (binding.etPoints.text?.isNotEmpty() == true && binding.etPoints.text.toString().isNumeric()) {
                 viewModel.fetchPoints(binding.etPoints.text.toString().toInt()).observe(viewLifecycleOwner) {
